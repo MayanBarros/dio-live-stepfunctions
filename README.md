@@ -1,5 +1,7 @@
 # DIO Live Step Functions - 22/12/2021
 
+![image](https://user-images.githubusercontent.com/77342116/229892977-983d8f7d-67ab-4f1e-a68f-c87f8d6d0b65.png)
+
 ## Serviços AWS utilizados
 
 - AWS Step Functions
@@ -58,6 +60,8 @@
   - AWSCloudTrail_FullAccess 
 
 ### Criar máquina de estado no AWS Step Functions
+
+![stepfunctions_graph](https://user-images.githubusercontent.com/77342116/229892536-00986a87-9ab1-4b70-83da-42c87e9465cc.png)
 
  - Step Functions Console -> State machines -> Create state machine -> Write your workflow in code -> Standard -> Inserir o [código](src/state_machine.json) no editor -> Next
  - Name [nome_da_sua_state_machine] -> Execution role [Create_new_role] -> Create state machine
